@@ -1,159 +1,148 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>BOIII Launcher</title>
+
+    <title>BOIII</title>
+
     <style>
-        /* Reset and basic styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            user-select: none;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #1e1e1e;
-            color: #fff;
-            overflow: hidden;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        /* Header */
-        .header {
-            background-color: #2d2d2d;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-        }
-        .header img {
-            height: 50px;
-        }
-        .header h1 {
-            margin-left: 20px;
-            font-size: 24px;
-        }
-        /* Navigation Bar */
-        .nav {
-            background-color: #252525;
-            display: flex;
-        }
-        .nav button {
-            flex: 1;
-            padding: 15px;
-            background: none;
-            border: none;
-            color: #ccc;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        .nav button:hover {
-            background-color: #333;
-        }
-        /* Main Content */
-        .main {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .main img {
-            max-width: 100%;
-            height: auto;
-        }
-        /* Play Button */
-        .play-button {
-            margin-top: 20px;
-        }
-        .play-button button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #0078d7;
-            border: none;
-            color: #fff;
-            cursor: pointer;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        .play-button button:disabled {
-            background-color: #555;
-            cursor: not-allowed;
-        }
-        .play-button button:hover:not(:disabled) {
-            background-color: #005a9e;
-        }
-        /* Footer */
-        .footer {
-            background-color: #2d2d2d;
-            text-align: center;
-            padding: 10px;
-            color: #ccc;
-        }
+      * {
+        user-select: none;
+        -ms-user-select: none;
+        cursor: default;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        -ms-overflow-style: none;
+
+        margin: 0;
+        padding: 0;
+
+        font-family: "Segoe UI Light", "Segoe UI", "Lucida Sans", Arial,
+          sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        background: black;
+      }
+
+      body {
+        background: transparent;
+      }
+
+      .background-container {
+        inset: 0;
+        position: fixed;
+        z-index: -1;
+      }
+      .background-container:before {
+        background: #000;
+        background: url(./logo.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: "";
+        height: 100%;
+        opacity: 0.25;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .background-container:after {
+        background-image: url(./noise.jpg);
+        background-repeat: repeat;
+        content: "";
+        height: 100%;
+        mix-blend-mode: overlay;
+        opacity: 0.025;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .content {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      div.button {
+        margin: 5px 10px;
+        display: inline-block;
+        border: 1px solid #44413f;
+        color: rgba(244, 240, 235, 0.776);
+        cursor: pointer;
+        background-color: rgb(42, 40, 39);
+        width: 120px;
+        text-align: center;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all 0.1s linear;
+        font-size: 1rem;
+        font-weight: normal;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      }
+
+      div.button:hover {
+        background-color: rgb(48, 45, 44);
+        border: 1px solid #4a4745;
+      }
+
+      h1,
+      h1 * {
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      }
     </style>
-</head>
-<body>
-    <div class="header">
-        <img src="./logo.jpg" alt="Logo">
-        <h1>BOIII Launcher</h1>
+  </head>
+
+  <body>
+    <div class="background-container"></div>
+
+    <div class="content">
+      <h1>
+        <span style="color: #ffffff">EZZ</span
+        ><span style="color: #f97316"> </span
+        ><span style="color: #f97316">B</span
+        ><span style="color: #ec511c">O</span
+        ><span style="color: #e53f21">I</span
+        ><span style="color: #e23623">I</span
+        ><span style="color: #dc2626">I</span>
+      </h1>
+      <div class="button" onclick="window.external.runGame()">Play</div>
+      <div class="button" onclick="window.external.openUrl('https://discord.gg/ezz')">
+        Discord
+      </div>
     </div>
-    <div class="nav">
-        <button onclick="openUrl('https://yourwebsite.com')">Home</button>
-        <button onclick="openUrl('https://yourwebsite.com/news')">News</button>
-        <button onclick="openUrl('https://yourwebsite.com/support')">Support</button>
-        <button onclick="openUrl('https://dc.ezz.lol')">Discord</button>
-    </div>
-    <div class="main">
-        <h2>Welcome to BOIII!</h2>
-        <p>Experience the game like never before.</p>
-        <div class="play-button">
-            <button id="playButton" onclick="runGame()" disabled>Play</button>
-        </div>
-    </div>
-    <div class="footer">
-        &copy; 2024 BOIII. All rights reserved.
-    </div>
+
     <script>
-        // Function to open external URLs
-        function openUrl(url) {
-            if (window.external && window.external.OpenUrl) {
-                window.external.OpenUrl(url);
-            } else {
-                window.open(url, '_blank');
-            }
-        }
+      window.onload = function () {};
 
-        // Function to run the game
-        function runGame() {
-            if (window.external && window.external.RunGame) {
-                window.external.RunGame();
-            }
-        }
+      document.onkeydown = fkey;
+      document.onkeypress = fkey;
+      document.onkeyup = fkey;
 
-        // Function to check if all files are present
-        function checkFiles() {
-            if (window.external && window.external.AllFilesPresent) {
-                return window.external.AllFilesPresent();
-            }
-            return false;
-        }
+      function fkey(e) {
+        e = e || window.event;
 
-        // Periodically check if all files are present to enable the Play button
-        function enablePlayButtonIfReady() {
-            if (checkFiles()) {
-                document.getElementById('playButton').disabled = false;
-            } else {
-                setTimeout(enablePlayButtonIfReady, 1000);
-            }
-        }
-
-        window.onload = function () {
-            enablePlayButtonIfReady();
-        }
+        location.reload();
+      }
     </script>
-</body>
+  </body>
 </html>
