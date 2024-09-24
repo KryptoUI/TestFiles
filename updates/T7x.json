@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ext.dll",
+        "size": 1143808,
+        "hash": "df3fe0853c920d591304f8de2cb4039ec0514208"
+    },
+    {
+        "name": "data/gamesettings/mp/gamesettings_escort.cfg",
+        "size": 1179,
+        "hash": "3004eca38b6e321a5e76b5f80eca96c0411cabb2"
+    },
+    {
+        "name": "data/launcher/logo.jpg",
+        "size": 489827,
+        "hash": "825aeacf7396ad8119b7aed9bd91bb82c22e14ae"
+    },
+    {
+        "name": "data/launcher/main.html",
+        "size": 3459,
+        "hash": "86170bf7c8d0d7dff2d06097835d688c884b2ea1"
+    },
+    {
+        "name": "data/launcher/noise.jpg",
+        "size": 58463,
+        "hash": "3d82df203b01aae4f38687cb87bb666f97a5faf2"
+    }
+]
