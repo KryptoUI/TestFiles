@@ -1,0 +1,167 @@
+[
+    {
+        "name": "ext.dll",
+        "size": 1143808,
+        "hash": "fcb36baa1cd78eba17374aa7b25063e127d42e42"
+    },
+    {
+        "name": "data/gamesettings/mp/gamesettings_escort.cfg",
+        "size": 1179,
+        "hash": "3004eca38b6e321a5e76b5f80eca96c0411cabb2"
+    },
+    {
+        "name": "data/launcher/logo.jpg",
+        "size": 489735,
+        "hash": "ceca7309563e50eed52b11fc5fcdff137737e40d"
+    },
+    {
+        "name": "data/launcher/main.html",
+        "size": 3459,
+        "hash": "86170bf7c8d0d7dff2d06097835d688c884b2ea1"
+    },
+    {
+        "name": "data/launcher/noise.jpg",
+        "size": 58463,
+        "hash": "3d82df203b01aae4f38687cb87bb666f97a5faf2"
+    },
+    {
+        "name": "data/lookup_tables/dvar_list.txt",
+        "size": 169191,
+        "hash": "5f581ab66e36539bb89744806c23ce0035f56bca"
+    },
+    {
+        "name": "data/scripts/mp/bots/_bot.gsc",
+        "size": 15384,
+        "hash": "a9c684d25c5a53e52af5eb9e5a12c033e8ee56bd"
+    },
+    {
+        "name": "data/scripts/mp/bots/_bot.gsc_raw",
+        "size": 20659,
+        "hash": "10e0b569788efd2bd25bd89349b3c9e553493e54"
+    },
+    {
+        "name": "data/scripts/mp/bots/_bot_loadout.gsc",
+        "size": 15500,
+        "hash": "f8ab0766a622f414b4d371c838bd1baf4c34292e"
+    },
+    {
+        "name": "data/scripts/mp/bots/_bot_loadout.gsc_raw",
+        "size": 19931,
+        "hash": "746a13d197f6fd3b6bc9561c4d3f1b1b66994119"
+    },
+    {
+        "name": "data/scripts/mp/gametypes/_globallogic_player.gsc",
+        "size": 91376,
+        "hash": "79f35e2fc5713d3d5cb65521e0e79904b0394e04"
+    },
+    {
+        "name": "data/scripts/mp/gametypes/_globallogic_player.gsc_raw",
+        "size": 138966,
+        "hash": "bc310ebed3baea7edce64ad677aa28171290b200"
+    },
+    {
+        "name": "data/scripts/mp/gametypes/_serversettings.gsc",
+        "size": 4612,
+        "hash": "cf2674d28ce7864b91631ffd49cf8fabb81e474e"
+    },
+    {
+        "name": "data/scripts/mp/gametypes/_serversettings.gsc_raw",
+        "size": 4935,
+        "hash": "28df623ac5cba881f58c6ed9a27091bcb37736fc"
+    },
+    {
+        "name": "data/scripts/mp/teams/_teams.gsc",
+        "size": 12284,
+        "hash": "e94cc290695d6cd359ebedd5e4036beb33c2bece"
+    },
+    {
+        "name": "data/scripts/mp/teams/_teams.gsc_raw",
+        "size": 14502,
+        "hash": "0a78a2791fc8007b3a5b76e748435912ac5787e2"
+    },
+    {
+        "name": "data/ui_scripts/doubleclick_join_server/__init__.lua",
+        "size": 3595,
+        "hash": "2d98026473d0b96e2e0579932e470ddcb7037859"
+    },
+    {
+        "name": "data/ui_scripts/frontend_menus/datasources_change_map_categories.lua",
+        "size": 3464,
+        "hash": "e6c6075c5b5185042fc0bc0b5b83626c6c51de5a"
+    },
+    {
+        "name": "data/ui_scripts/frontend_menus/datasources_gamesettingsflyout_buttons.lua",
+        "size": 8683,
+        "hash": "556037909a07e4d40de66b111807811e7dc5601d"
+    },
+    {
+        "name": "data/ui_scripts/frontend_menus/datasources_start_menu_tabs.lua",
+        "size": 5506,
+        "hash": "e7066bc6ac2a81bab35a7aa0a69fd528f6d210d9"
+    },
+    {
+        "name": "data/ui_scripts/frontend_menus/utils.lua",
+        "size": 4432,
+        "hash": "9cca8f19b422d16428c01ec55361a96cf0a8716a"
+    },
+    {
+        "name": "data/ui_scripts/frontend_menus/__init__.lua",
+        "size": 5934,
+        "hash": "af460f55ad38904f43fe308bccc8ffd648ce08da"
+    },
+    {
+        "name": "data/ui_scripts/graphics_settings/__init__.lua",
+        "size": 4444,
+        "hash": "c0b45859717568760936abf94d07c2a3822853d5"
+    },
+    {
+        "name": "data/ui_scripts/lua_fixes/__init__.lua",
+        "size": 104,
+        "hash": "e1b587fdcd8e58ca4f07c37af44c5515bf86fae3"
+    },
+    {
+        "name": "data/ui_scripts/party/datasources_start_menu_game_options.lua",
+        "size": 4684,
+        "hash": "570ade4edf80ff56549de630316ea2033d4db228"
+    },
+    {
+        "name": "data/ui_scripts/party/__init__.lua",
+        "size": 880,
+        "hash": "c44320498f3bd819548c368c0fccd7f93d5938e3"
+    },
+    {
+        "name": "data/ui_scripts/playlist/widget_playlist_category_match_settings_info.lua",
+        "size": 406,
+        "hash": "51ad3fae05de8b73f896e45854980f5d85a1de33"
+    },
+    {
+        "name": "data/ui_scripts/playlist/widget_playlist_match_settings_info.lua",
+        "size": 366,
+        "hash": "901c28f36ff4005f1829d3ed4458b23364e09baf"
+    },
+    {
+        "name": "data/ui_scripts/playlist/__init__.lua",
+        "size": 939,
+        "hash": "fbc0f87748f61e478a0d36a51c1675124d43fc65"
+    },
+    {
+        "name": "data/ui_scripts/ranked/online_mods_loaded.lua",
+        "size": 703,
+        "hash": "8b9590e41002693237d54c19f2316dc46d3e2ad8"
+    },
+    {
+        "name": "data/ui_scripts/ranked/__init__.lua",
+        "size": 30,
+        "hash": "ca6aa69abb14ee5d400233f0d51656f185d7cad8"
+    },
+    {
+        "name": "data/ui_scripts/server_browser/__init__.lua",
+        "size": 13148,
+        "hash": "8f90d89b8622973d99e61f890314dcd613cfc2f3"
+    },
+    {
+        "name": "data/ui_scripts/stats/__init__.lua",
+        "size": 14424,
+        "hash": "4a4caa94f77577c57f594156a2f1ffa321f0716d"
+    }
+]
