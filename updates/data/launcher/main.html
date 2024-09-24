@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>BOIII Launcher</title>
+    <style>
+        /* Reset and basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Header */
+        .header {
+            background-color: #2d2d2d;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header h1 {
+            margin-left: 20px;
+            font-size: 24px;
+        }
+        /* Navigation Bar */
+        .nav {
+            background-color: #252525;
+            display: flex;
+        }
+        .nav button {
+            flex: 1;
+            padding: 15px;
+            background: none;
+            border: none;
+            color: #ccc;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .nav button:hover {
+            background-color: #333;
+        }
+        /* Main Content */
+        .main {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Play Button */
+        .play-button {
+            margin-top: 20px;
+        }
+        .play-button button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #0078d7;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .play-button button:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+        .play-button button:hover:not(:disabled) {
+            background-color: #005a9e;
+        }
+        /* Footer */
+        .footer {
+            background-color: #2d2d2d;
+            text-align: center;
+            padding: 10px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./bigboiii.jpg" alt="Logo">
+        <h1>BOIII Launcher</h1>
+    </div>
+    <div class="nav">
+        <button onclick="openUrl('https://yourwebsite.com')">Home</button>
+        <button onclick="openUrl('https://yourwebsite.com/news')">News</button>
+        <button onclick="openUrl('https://yourwebsite.com/support')">Support</button>
+        <button onclick="openUrl('https://dc.ezz.lol')">Discord</button>
+    </div>
+    <div class="main">
+        <h2>Welcome to BOIII!</h2>
+        <p>Experience the game like never before.</p>
+        <div class="play-button">
+            <button id="playButton" onclick="runGame()" disabled>Play</button>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 BOIII. All rights reserved.
+    </div>
+    <script>
+        // Function to open external URLs
+        function openUrl(url) {
+            if (window.external && window.external.OpenUrl) {
+                window.external.OpenUrl(url);
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+
+        // Function to run the game
+        function runGame() {
+            if (window.external && window.external.RunGame) {
+                window.external.RunGame();
+            }
+        }
+
+        // Function to check if all files are present
+        function checkFiles() {
+            if (window.external && window.external.AllFilesPresent) {
+                return window.external.AllFilesPresent();
+            }
+            return false;
+        }
+
+        // Periodically check if all files are present to enable the Play button
+        function enablePlayButtonIfReady() {
+            if (checkFiles()) {
+                document.getElementById('playButton').disabled = false;
+            } else {
+                setTimeout(enablePlayButtonIfReady, 1000);
+            }
+        }
+
+        window.onload = function () {
+            enablePlayButtonIfReady();
+        }
+    </script>
+</body>
+</html>
