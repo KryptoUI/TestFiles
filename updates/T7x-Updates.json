@@ -26,6 +26,12 @@
             "name": "data/launcher/noise.jpg",
             "size": 58463,
             "hash": "3d82df203b01aae4f38687cb87bb666f97a5faf2"
+        },
+		{
+            "name": "data/launcher/noise.jpg",
+            "size": 58463,
+            "hash": "3d82df203b01aae4f38687cb87bb666f97a5faf2"
         }
+		
     ]
 }
