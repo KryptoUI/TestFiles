@@ -1,0 +1,21 @@
+{
+  "launcher_version": "1.0.0.3",
+  "game_version": "BOIII - 1.26",
+  "files": [
+    {
+      "name": "T7x - Launcher.exe",
+      "size": 14567232,
+      "hash": "9f620e6c324ea9bdbb4f7cf78fa8bdb9b760084e"
+    },
+    {
+      "name": "T7x - Assets.dll",
+      "size": 1234567,
+      "hash": "f2f7f9be4e5c76b4e86578f7d2be978656fd2d24"
+    },
+    {
+      "name": "T7x - GameConfig.xml",
+      "size": 98765,
+      "hash": "e4e74fe7a9d7d8429a4e5b8d56d67abf9b8d7c12"
+    }
+  ]
+}
