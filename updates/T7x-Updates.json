@@ -1,5 +1,5 @@
 {
-    "launcher_version": "1.0.0",
+    "launcher_version": null,
     "game_version": "1.0.0",
     "files": [
         {
@@ -167,5 +167,8 @@
             "size": 14424,
             "hash": "4a4caa94f77577c57f594156a2f1ffa321f0716d"
         }
-    ]
+    ],
+    "GameDirectory": "C:/Users/Home/AppData/Local/T7x",
+    "GameVersion": "1.0.0",
+    "LastUpdateCheck": "2024-09-25T16:24:56.906400"
 }
