@@ -170,12 +170,12 @@
         {
             "name": "LauncherUpdates/T7x-Client.exe",
             "size": 12658688,
-            "hash": "616a973728e5d2fcfa66acf40b76329b8c7a69f9"
+            "hash": "1b0ba175b1948ec6d843564087227187e82b7e23"
         },
         {
             "name": "LauncherUpdates/T7x-Assets.zip",
-            "size": 5882301,
-            "hash": "8d80fc5df0a0ac3eb13657a044a1266ecee9b1b0"
+            "size": 5882464,
+            "hash": "af2563ac47d8cc0d3ea3e4fd2849e14e8867f9ce"
         }
     ]
 }
