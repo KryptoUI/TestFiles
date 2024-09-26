@@ -1,0 +1,182 @@
+[
+    {
+        "name": "T7x-Launcher.json",
+        "size": 565,
+        "hash": "6a6478f13566732c8703bd067e9ed48f49690745"
+    },
+    {
+        "name": "T7x-Updates.json",
+        "size": 6233,
+        "hash": "58f8f5813195ae53572642a311873b67655404d3"
+    },
+    {
+        "name": "GameUpdates/ext.dll",
+        "size": 1143808,
+        "hash": "df3fe0853c920d591304f8de2cb4039ec0514208"
+    },
+    {
+        "name": "GameUpdates/data/gamesettings/mp/gamesettings_escort.cfg",
+        "size": 1205,
+        "hash": "6b97d13a010c5413f087411d1439ac6d7e79bf2a"
+    },
+    {
+        "name": "GameUpdates/data/launcher/main.html",
+        "size": 3607,
+        "hash": "77e941c71fec726da12896b63bccddf0719c5317"
+    },
+    {
+        "name": "GameUpdates/data/launcher/noise.jpg",
+        "size": 58463,
+        "hash": "3d82df203b01aae4f38687cb87bb666f97a5faf2"
+    },
+    {
+        "name": "GameUpdates/data/launcher/T7xLogo2.png",
+        "size": 2470723,
+        "hash": "6ef0ed0ab7b5568c1de98e1eb587416a3d7ad51d"
+    },
+    {
+        "name": "GameUpdates/data/lookup_tables/dvar_list.txt",
+        "size": 176216,
+        "hash": "27376dc7a045696a776b347ed8931603180b66e8"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/bots/_bot.gsc",
+        "size": 15384,
+        "hash": "a9c684d25c5a53e52af5eb9e5a12c033e8ee56bd"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/bots/_bot.gsc_raw",
+        "size": 21784,
+        "hash": "0cbd0789e7743ec82748136d08d4f859d3dafa89"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/bots/_bot_loadout.gsc",
+        "size": 15500,
+        "hash": "f8ab0766a622f414b4d371c838bd1baf4c34292e"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/bots/_bot_loadout.gsc_raw",
+        "size": 20784,
+        "hash": "b68066d8064a079749f7169be82f9ce8dc847db6"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/gametypes/_globallogic_player.gsc",
+        "size": 91376,
+        "hash": "79f35e2fc5713d3d5cb65521e0e79904b0394e04"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/gametypes/_globallogic_player.gsc_raw",
+        "size": 143490,
+        "hash": "869c129c269c66022095ed6e042a63ff4cd260a2"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/gametypes/_serversettings.gsc",
+        "size": 4612,
+        "hash": "cf2674d28ce7864b91631ffd49cf8fabb81e474e"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/gametypes/_serversettings.gsc_raw",
+        "size": 5143,
+        "hash": "10ca7b670c2d049a0dc5b4a2221e67cb6a61dedd"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/teams/_teams.gsc",
+        "size": 12284,
+        "hash": "e94cc290695d6cd359ebedd5e4036beb33c2bece"
+    },
+    {
+        "name": "GameUpdates/data/scripts/mp/teams/_teams.gsc_raw",
+        "size": 15172,
+        "hash": "9a4bd7de33066a7dbeba9f3a33446f89da72a1ec"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/doubleclick_join_server/__init__.lua",
+        "size": 3712,
+        "hash": "a5df469722eb0098a6d743cffff4e98f02a01379"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/frontend_menus/datasources_change_map_categories.lua",
+        "size": 3560,
+        "hash": "62360c76e9b0941657ce56a0f61f7d18b7acdb28"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/frontend_menus/datasources_gamesettingsflyout_buttons.lua",
+        "size": 8943,
+        "hash": "7c0f66275b131e3ea7b33e46ddfd8a529064fcd3"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/frontend_menus/datasources_start_menu_tabs.lua",
+        "size": 5723,
+        "hash": "e8a05f97d9586744a74ae794d93487f8e6381610"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/frontend_menus/utils.lua",
+        "size": 4592,
+        "hash": "f77caa4069ca8478bbe7f0c8c36cb7436650fac1"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/frontend_menus/__init__.lua",
+        "size": 6090,
+        "hash": "0549f25bca8a8e7fe0a15270088475fc72699527"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/graphics_settings/__init__.lua",
+        "size": 4591,
+        "hash": "50381e6d842df5375a06ce51d1a9122fd51af4c9"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/lua_fixes/__init__.lua",
+        "size": 107,
+        "hash": "5176804cff5a0d94c820e408d2ddbbe1c5af578a"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/party/datasources_start_menu_game_options.lua",
+        "size": 4759,
+        "hash": "5da528d38d483976cc86b76cfe768dbead000cc9"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/party/__init__.lua",
+        "size": 910,
+        "hash": "4e79743a6e955449625f0201b6c762dfe85dfdb7"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/playlist/widget_playlist_category_match_settings_info.lua",
+        "size": 421,
+        "hash": "3e7d9e08311997f743e6e7a63ef444cb7e4d27fd"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/playlist/widget_playlist_match_settings_info.lua",
+        "size": 381,
+        "hash": "2ed403f35c8220e918e3f7dfe38403ff0e63e7e4"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/playlist/__init__.lua",
+        "size": 973,
+        "hash": "97bff0bb26eb65644554f1b18c6df9f6a2f3d996"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/ranked/online_mods_loaded.lua",
+        "size": 726,
+        "hash": "d136e6d2a817be4762840f3a7e32774e2aeb2940"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/ranked/__init__.lua",
+        "size": 31,
+        "hash": "afea670205ae14b532d377e066208db3efb4c823"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/server_browser/__init__.lua",
+        "size": 13526,
+        "hash": "de7d46a9d2d40e26725b9c3992c039bc44238711"
+    },
+    {
+        "name": "GameUpdates/data/ui_scripts/stats/__init__.lua",
+        "size": 14845,
+        "hash": "a547a53ef10422d16e29309cec72031d706294a0"
+    },
+    {
+        "name": "LauncherUpdates/T7x-Assets.zip",
+        "size": 340925,
+        "hash": "9fad6c0bc0e76bf3d22f3d3a9cfa0f9acce39666"
+    }
+]
