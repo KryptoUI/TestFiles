@@ -1,6 +1,6 @@
 {
-    "launcher_version": "",
-    "game_version": "1.0.0",
+    "launcher_version": "1.0.0.1",
+    "game_version": "1.0.0.0",
     "files": [
         {
             "name": "GameUpdates/ext.dll",
