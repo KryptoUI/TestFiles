@@ -1,6 +1,6 @@
 {
-    "launcher_version": "1.0.0.1",
-    "game_version": "1.0.0.0",
+    "launcher_version": "",
+    "game_version": "1.0.0",
     "files": [
         {
             "name": "GameUpdates/ext.dll",
@@ -169,13 +169,13 @@
         },
         {
             "name": "LauncherUpdates/T7x-Client.exe",
-            "size": 7920640,
-            "hash": "7206ed69119c8e901a5c4f90025f5857dbbb2876"
+            "size": 12658688,
+            "hash": "616a973728e5d2fcfa66acf40b76329b8c7a69f9"
         },
         {
             "name": "LauncherUpdates/T7x-Assets.zip",
-            "size": 340925,
-            "hash": "9fad6c0bc0e76bf3d22f3d3a9cfa0f9acce39666"
+            "size": 5882301,
+            "hash": "8d80fc5df0a0ac3eb13657a044a1266ecee9b1b0"
         }
     ]
 }
