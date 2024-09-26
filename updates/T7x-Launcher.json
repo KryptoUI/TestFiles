@@ -1,0 +1,20 @@
+{
+  "launcher_version": "1.0.0",
+  "game_version": "1.0.0",
+  "files": [
+    {
+      "name": "T7x-Client.exe",
+      "url": "https://yourserver.com/updates/T7x-Client.exe",
+      "hash": "e2c865db4162bed963bfaa9ef6ac18f0",
+      "size": 7735,
+      "type": "launcher"
+    },
+    {
+      "name": "T7x-Assets.zip",
+      "url": "https://yourserver.com/updates/T7x-Assets.zip",
+      "hash": "aabbccddeeff00112233445566778899",  // SHA-1 or MD5 hash of the zip file
+      "size": 8901,  // Zip file size in bytes
+      "type": "assets"
+    }
+  ]
+}
