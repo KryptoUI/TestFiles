@@ -1,5 +1,5 @@
 {
-    "launcher_version": "1.0.0.9",
+    "launcher_version": "1.0.0.10",
     "game_version": "1.0.0",
     "files": [
         {
@@ -280,7 +280,7 @@
         {
             "name": "LauncherUpdates/T7x-Client.exe",
             "size": 13577216,
-            "hash": "7a0f2fb60fdcf0babc928aa701ddcd4ee916ca06"
+            "hash": "b93dbbf0ebd0aaebcd45d03a97b8ada4e845507b"
         },
         {
             "name": "LauncherUpdates/T7x-Client.exe.config",
@@ -290,7 +290,7 @@
         {
             "name": "LauncherUpdates/T7x-Client.pdb",
             "size": 112128,
-            "hash": "942ba62ab3bce559687d5a579cfd0594d379ccf8"
+            "hash": "3f9bf3979b973420a63166def59300c17c7f817b"
         },
         {
             "name": "LauncherUpdates/resources/Launcher.mp3",
