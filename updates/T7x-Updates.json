@@ -280,7 +280,7 @@
         {
             "name": "LauncherUpdates/T7x-Client.exe",
             "size": 13579776,
-            "hash": "b0f952883dfb5ebbf2c1a03cb5d196138199e059"
+            "hash": "7e93d5272215603b1752bab3723a5e3f70ab242e"
         },
         {
             "name": "LauncherUpdates/T7x-Client.exe.config",
@@ -290,7 +290,7 @@
         {
             "name": "LauncherUpdates/T7x-Client.pdb",
             "size": 114176,
-            "hash": "2a51873772acbdd5c365a5c01997b5b0d5450a66"
+            "hash": "f37459b37e01d04bdc210d268a57746bcd1649de"
         },
         {
             "name": "LauncherUpdates/resources/Launcher.mp3",
